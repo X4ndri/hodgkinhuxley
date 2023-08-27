@@ -27,7 +27,7 @@ class NeuronSimulatorApp(QMainWindow):
             self.simulation_params = config['simulation_params']
             self.model_params = config['model_params']
     def initUI(self):
-        self.setWindowTitle('Neuron Simulator')
+        self.setWindowTitle('H-H Model')
 
         # Create sliders, text boxes, and layout
         sliders_layout = QHBoxLayout()
