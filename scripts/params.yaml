@@ -1,0 +1,21 @@
+simulation_params:
+  num_points : 1000 # number of points in the simulation
+  # use the following to build your current injection to the neuron
+  input_params:
+    # inputs start times
+    input_start : [2, 8, 19]
+    # input end times
+    input_end : [4, 11, 23]
+    # input amplitudes
+    input_amp : [5, 13, 21]
+    # e.g. this means from time 2 to 4, input is square with amplitude 5
+
+model_params:
+  C: 1 # membrane capacitance in microfarads
+  gNa: 120 # Sodium Conductance
+  gK: 36 # Potassium Conductance
+  gL: 0.3 # Leakage Conductance
+  ENa: 50 # mV Sodium Reversal Potential
+  EK: -77 # mV Potassium Reversal Potential
+  EL: -54.4 # mV Leakage Reversal Potential
+
