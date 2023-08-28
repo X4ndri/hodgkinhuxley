@@ -3,11 +3,11 @@ simulation_params:
   # use the following to build your current injection to the neuron
   input_params:
     # inputs start times
-    input_start : [2, 8, 19]
+    input_start : [2, 8, 19, 25]
     # input end times
-    input_end : [4, 11, 23]
+    input_end : [4, 11, 20, 30]
     # input amplitudes
-    input_amp : [5, 13, 21]
+    input_amp : [5, 13, 21, 21]
     # e.g. this means from time 2 to 4, input is square with amplitude 5
 
 model_params:
