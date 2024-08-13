@@ -1,5 +1,5 @@
 # hodgkinhuxley
-# Simulation of a Hodgkin Huxley model the neuron
+# Simulation of a Hodgkin Huxley model of the neuron
 This is a toy code to simulate the Hodgkin-Huxley model of neuronal firing. Included in the model are Sodium and Potassium channel coductances in addition to a leak conductance. Addition of more channels is rather easy; only requires addition of corresponding differential equations governing activation and inactivation. Here, we utilize governing equations provided by Svirskis, Gytis, et al. from John Rinzel's group. Although limited, you can make custom current injections to the neuron at differnt time points (only square injections supported for now). <br>
 [A standalone .exe version is also available here.](https://www.dropbox.com/scl/fo/5i8wvnk9chzlvqm1paiyo/h?rlkey=sko9ghgak8c7g9qr5uklzxutj&dl=0). With the .exe file, you can still edit the model parameter by via the /scripts/params.yaml file.
 ### Simple two-pulse injection
